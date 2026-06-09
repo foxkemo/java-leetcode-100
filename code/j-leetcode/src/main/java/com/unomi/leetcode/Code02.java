@@ -34,4 +34,20 @@ public class Code02 {
             return new ArrayList<>(map.values());
         }
     }
+
+
+    static class Solution2 {
+        public List<List<String>> groupAnagrams(String[] strs) {
+            Map<String, List<String>> hash = new HashMap<>();
+
+            for (String str : strs) {
+                char[] c = str.toCharArray();
+                Arrays.sort(c);
+                hash.computeIfAbsent(new String(c), v -> new ArrayList<>()).add(str);
+            }
+
+            return new ArrayList<>(hash.values());
+        }
+    }
+
 }

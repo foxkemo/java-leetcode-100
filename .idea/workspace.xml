@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f923a4eb-8bbb-4f4f-bec9-03bb1f361f3b" name="更改" comment="" />
+    <list default="true" id="f923a4eb-8bbb-4f4f-bec9-03bb1f361f3b" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/code/j-leetcode/src/main/java/com/unomi/new/Solution206.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +28,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="3DkeAZpc4OTXsrYwarwSdqzMS3T" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,6 +55,7 @@
       <updated>1778830351352</updated>
       <workItem from="1778830352550" duration="65000" />
       <workItem from="1780457307517" duration="165000" />
+      <workItem from="1783327534748" duration="117000" />
     </task>
     <servers />
   </component>
